@@ -1,5 +1,7 @@
 module.exports = {
-    output: 'standalone',
+    output: 'export',
+    reactStrictMode: true,
+    distDir: 'dist',
     experimental: {
         optimizeFonts: true,
     },
