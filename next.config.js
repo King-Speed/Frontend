@@ -1,7 +1,12 @@
 module.exports = {
     output: 'export',
     reactStrictMode: true,
-    distDir: 'dist',
+    basePath: "/nextjs-pages",
+    assetPrefix: "/nextjs-pages",
+    images: {
+        loader: "akamai",
+        path: "",
+    },
     experimental: {
         optimizeFonts: true,
     },
