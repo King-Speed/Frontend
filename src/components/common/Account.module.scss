@@ -1,0 +1,32 @@
+.account {
+    background: #232c40;
+    border-radius: 10rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+
+    .balance {
+        display: flex;
+        align-items: center;
+
+        margin-right: 1rem;
+    }
+
+    .amount {
+        font-size: 1.8rem;
+        margin-left: 0.3rem;
+    }
+
+    .address {
+        background: #040719;
+        border-radius: 3rem;
+        padding: 0.5rem 1rem;
+        font-size: 1.8rem;
+    }
+}

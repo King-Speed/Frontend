@@ -1,0 +1,88 @@
+const PartnerData = [
+    {
+        id: Math.random(),
+        image: '/backer/yahoo_finance.png',
+        name: 'yahoo_finance',
+        className: 'yahooFinance',
+        url: 'https://finance.yahoo.com/news/kingspeed-officially-launches-staking-system-125700044.html?guccounter=1',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/investing.webp',
+        name: 'investing',
+        className: 'investing',
+        url: 'https://www.investing.com/news/cryptocurrency-news/kingspeed-reveals-huge-backers-following-a-successful-private-round-of-12-million-2691164',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/roseon.webp',
+        name: 'roseon',
+        className: 'roseon',
+        url: 'https://twitter.com/Lavender_VC/status/1463824841719656463?s=20',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/coin_telegraph.webp',
+        name: 'coin_telegraph',
+        className: 'coinTelegraph',
+        url: 'https://cointelegraph.com/press-releases/kingspeed-reveals-huge-backers-following-a-successful-private-round-of-12-million',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/crypto_potato.webp',
+        name: 'crypto_potato',
+        className: 'cryptoPotato',
+        url: 'https://cryptopotato.com/kingspeed-reveals-huge-backers-following-a-successful-private-round-of-1-2m/',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/bsc_news.webp',
+        name: 'bsc_news',
+        className: 'bscNews',
+        url: '',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/coin_turk.webp',
+        name: 'coin_turk',
+        className: 'coinTurk',
+        url: 'https://coin-turk.com/nft-araba-yarisi-oyunu-serisi-king-speed',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/68_coin.webp',
+        name: '68_coin',
+        className: 'sixEightCoin',
+        url: '',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/ox_bull.webp',
+        name: 'ox_bull',
+        className: 'oxBull',
+        url: 'https://twitter.com/Oxbull5/status/1463176305130688512',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/game_station.webp',
+        name: 'game_station',
+        className: 'gameStation',
+        url: 'https://twitter.com/GameStationIO/status/1462791570395222016',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/krystal_go.webp',
+        name: 'krystal_go',
+        className: 'krystalGo',
+        url: 'https://twitter.com/krystaldefi/status/1461711039876112384?s=21',
+    },
+    {
+        id: Math.random(),
+        image: '/backer/market_watch.png',
+        name: 'market_watch',
+        className: 'marketWatch',
+        url: 'https://www.marketwatch.com/press-release/kingspeed-officially-launches-its-staking-system-to-reward-users-with-up-to-97-apy-2021-12-21',
+    },
+]
+
+export default PartnerData

@@ -1,0 +1,33 @@
+.about-advisor {
+    min-height: 100vh;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond(phone) {
+        min-height: unset;
+    }
+
+    @include respond(tab-port) {
+        min-height: unset;
+    }
+
+    @include respond(tab-land) {
+        min-height: unset;
+    }
+
+    .section-team {
+        padding: 5rem 7rem;
+
+        @include respond(phone) {
+            padding: 8rem 1rem 6rem;
+
+            .heading-secondary {
+                text-align: center;
+            }
+        }
+    }
+}

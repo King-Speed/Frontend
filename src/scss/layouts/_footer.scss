@@ -1,0 +1,74 @@
+.app-footer {
+    padding: 2rem 15rem 4rem;
+    background-color: #000000;
+
+    @include respond(phone) {
+        padding: 4rem 1rem;
+    }
+
+    @include respond(desktop) {
+        padding: 4rem 10rem;
+    }
+
+    @include respond(tab-land) {
+        padding: 4rem 10em;
+    }
+
+    @include respond(tab-port) {
+        padding: 4rem 10rem;
+    }
+
+    @include respond(big-desktop) {
+        padding: 15rem;
+    }
+
+    .divide {
+        opacity: 0.25;
+        border: 1px solid #ffffff;
+        margin-bottom: 4rem;
+    }
+
+    &__logo {
+        margin-top: 20px;
+        .copy-right {
+            margin-top: 2rem;
+            font-size: 2rem;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .email-contact {
+            margin-top: 1rem;
+            font-size: 1.8rem;
+            color: #ffffff;
+            font-weight: 500;
+        }
+    }
+
+    &__item {
+        color: #ffffff;
+
+        .app-footer__title {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 3rem;
+        }
+
+        .app-footer__li {
+            font-size: 1.8rem;
+            color: #ccc5c5;
+            line-height: 3.5rem;
+
+            a {
+                color: unset;
+            }
+        }
+
+        .app-footer__li:hover {
+            color: #c3fb12;
+            cursor: pointer;
+            padding-left: 10px;
+            transition: all 0.2s ease-in-out 0s;
+        }
+    }
+}

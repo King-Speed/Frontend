@@ -1,0 +1,26 @@
+@import "../../scss/mixins";
+
+.comingSoon {
+    margin: 0 auto;
+
+    text-align: center;
+
+    img {
+        margin-top: 10rem;
+
+        @include respond(phone) {
+            width: 100vw;
+            margin-top: 16rem;
+        }
+
+        @include respond(tab-port) {
+            width: 100vw;
+            margin-top: 16rem;
+        }
+
+        @include respond(tab-land) {
+            width: 100vw;
+            margin-top: 16rem;
+        }
+    }
+}

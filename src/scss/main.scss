@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./mixins";
+
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utilities";
+@import "./global.scss";
+
+// Home Page
+@import "./pages/home";
+@import "../components/home/SectionAbout.scss";
+@import "../components/home/PlayToEarn.scss";
+@import "../components/home/Feature.scss";
+@import "../components/home/HowToEarn.scss";
+@import "../components/home/NFTCollection.scss";
+@import "../components/home/AboutTeam.scss";
+@import "../components/home/AboutAdvisor.scss";
+@import "../components/home/Roadmap.scss";
+@import "../components/home/LatestNews.scss";
+@import "../components/about/CTO.scss";
+
+@import "./pages/about";
+@import "../components/faq/FQA.scss";
+@import "../components/faq/QuestionItem.scss";
+
+@import "./layouts/_header";
+@import "./layouts/_footer";

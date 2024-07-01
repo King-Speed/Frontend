@@ -1,0 +1,65 @@
+@import '../../scss/mixins';
+
+.kscInfo {
+    background: rgb(0, 0, 0, 0.8);
+    border: 1px solid #979797;
+    padding: 2rem 2.5rem 2rem 4rem;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 10rem;
+    border-radius: 0.8rem;
+
+    @include respond(phone) {
+        bottom: 1rem;
+        padding: 1.5rem 2rem;
+        margin: 0 auto;
+        right: 3rem;
+        left: 3rem;
+    }
+
+    .kscAddressOfficial {
+        font-size: 1.6rem;
+        color: #ffffff;
+        font-weight: 600;
+
+        .kscAddress {
+            color: #00aed6;
+            font-weight: 600;
+        }
+    }
+
+    .copy {
+        cursor: pointer;
+    }
+
+    .kscList {
+        position: relative;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+
+        .dextools {
+            height: 3.2rem;
+            width: 11.1rem;
+        }
+
+        .pancakeSwap {
+            width: 14rem;
+            height: 2.2rem;
+        }
+
+        .coinGecko {
+            height: 3rem;
+        }
+    }
+    .mascot {
+        position: absolute;
+        left: -110px;
+        top: -80px;
+
+        img {
+            height: 130px;
+        }
+    }
+}

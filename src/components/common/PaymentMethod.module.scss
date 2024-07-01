@@ -1,0 +1,41 @@
+.headerPayment {
+    display: flex;
+    justify-content: space-between;
+
+    .messageHeader {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+.iconClose {
+    color: #ffffff;
+}
+
+.paymentMethod {
+    margin-top: 2rem;
+
+    .paymentItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        cursor: pointer;
+
+        .image {
+            height: 6rem;
+            width: 6rem;
+        }
+
+        .namePayment {
+            color: #ffffff;
+            font-size: 1.8rem;
+        }
+
+        .account {
+            color: #ffffff;
+            font-size: 1.8rem;
+        }
+    }
+}

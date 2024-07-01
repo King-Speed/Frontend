@@ -1,0 +1,470 @@
+.nft-collection {
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 120rem;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond(phone) {
+        min-height: unset;
+        max-width: unset;
+    }
+
+    @include respond(tab-port) {
+        padding: 8rem 3rem 0;
+        min-height: 55rem;
+        max-width: 100vw;
+    }
+
+    @include respond(tab-land) {
+        padding: 8rem 5rem 0;
+        min-height: 55rem;
+        max-width: 100vw;
+    }
+
+    .nft-collection__title {
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 6.2rem;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 6rem;
+
+        @include respond(phone) {
+            font-size: 4.5rem;
+            padding-top: 7rem;
+
+            margin-bottom: 3rem;
+
+            line-height: 5.5rem;
+        }
+
+        .highlight {
+            color: #c3fb12;
+
+            @include respond(phone) {
+                display: block;
+            }
+        }
+    }
+
+    .nft-collection__mobile {
+        padding: 0 1rem;
+
+        .ant-carousel {
+            .slick-next {
+                display: none !important;
+                &::before {
+                    content: "";
+                }
+            }
+            .slick-prev {
+                display: none !important;
+                &::before {
+                    content: "";
+                }
+            }
+        }
+    }
+
+    .nft-collection__desktop {
+        display: flex;
+        padding: 0 10rem;
+        align-items: center;
+
+        margin-bottom: 2.5rem;
+    }
+
+    .nft-collection__list {
+        .nft-collection__item {
+            position: relative;
+
+            img {
+                padding: 0 1.5rem;
+                max-width: 100%;
+                cursor: pointer;
+
+                @include respond(phone) {
+                    padding: 0 1rem 4rem;
+                }
+            }
+
+            img:hover {
+                transform: scale(1.2);
+                transition: 0.8s;
+            }
+        }
+
+        .nft-collection__item.active {
+            img {
+                transform: scale(1.1);
+            }
+        }
+
+        .nft-collection__item-4 {
+            @include respond(phone) {
+                margin-top: 0px;
+
+                img {
+                    transform: scale(1);
+                }
+            }
+        }
+
+        .nft-collection__item-3 {
+            img {
+                margin-top: 10px;
+                transform: scale(0.9);
+            }
+        }
+
+        .nft-collection__item-3.active {
+            img {
+                transform: scale(1);
+            }
+        }
+
+        .nft-collection__item-3 img:hover {
+            transform: scale(1.1);
+            transition: 0.8s;
+        }
+
+        .nft-collection__item.active::after,
+        .nft-collection__item.active:hover::after {
+            background-size: 14.5rem 8rem;
+            display: block;
+            position: absolute;
+            width: 14.5rem;
+            height: 8rem;
+            top: 2.8rem;
+            left: 4rem;
+            z-index: -1;
+            content: "";
+
+            @include respond(phone) {
+                background-size: 13rem 6rem;
+                width: 13rem;
+                height: 6rem;
+                left: 2rem;
+            }
+        }
+
+        .nft-collection__item-0.active::after,
+        .nft-collection__item-0.active:hover::after {
+            background-image: url("../../assets/images/hover_img_0.webp");
+        }
+
+        .nft-collection__item-1.active::after,
+        .nft-collection__item-1.active:hover::after {
+            background-image: url("../../assets/images/hover_img_1.webp");
+        }
+
+        .nft-collection__item-2.active::after,
+        .nft-collection__item-2.active:hover::after {
+            background-image: url("../../assets/images/hover_img_2.webp");
+        }
+
+        .nft-collection__item-3.active::after,
+        .nft-collection__item-3.active:hover::after {
+            background-image: url("../../assets/images/hover_img_3.webp");
+            top: 4.2rem;
+        }
+
+        .nft-collection__item-4.active::after,
+        .nft-collection__item-4.active:hover::after {
+            background-image: url("../../assets/images/hover_img_4.webp");
+            top: 5.5rem;
+            left: 7rem;
+
+            @include respond(phone) {
+                left: 4rem;
+                top: 4.7rem;
+            }
+        }
+
+        .nft-collection__item-5.active::after,
+        .nft-collection__item-5.active:hover::after {
+            background-image: url("../../assets/images/hover_img_5.webp");
+        }
+    }
+
+    .divide {
+        background: linear-gradient(to right, rgba(195, 251, 18, 0), #e3fd29 39%, rgba(195, 251, 18, 0));
+        margin-top: -3.5rem;
+        height: 2px;
+
+        @include respond(phone) {
+            margin-top: -5.2rem;
+        }
+    }
+
+    .divide_0 {
+        background: linear-gradient(to right, rgba(195, 251, 18, 0), #03aa14 39%, rgba(195, 251, 18, 0));
+    }
+
+    .divide_1 {
+        background: linear-gradient(to right, rgba(195, 251, 18, 0), #e3fd29 39%, rgba(195, 251, 18, 0));
+    }
+
+    .divide_2 {
+        background: linear-gradient(to right, rgba(195, 251, 18, 0), #00aed6 39%, rgba(195, 251, 18, 0));
+    }
+
+    .divide_3 {
+        background: linear-gradient(to right, rgba(195, 251, 18, 0), #ffab00 39%, rgba(195, 251, 18, 0));
+    }
+
+    .divide_4 {
+        background: linear-gradient(to right, rgba(195, 251, 18, 0), #df1895 39%, rgba(195, 251, 18, 0));
+    }
+
+    .divide_5 {
+        background: linear-gradient(to right, rgba(195, 251, 18, 0), #ee2737 39%, rgba(195, 251, 18, 0));
+    }
+
+    .information {
+        margin-top: 6rem;
+
+        @include respond(phone) {
+            padding: 0 2rem;
+        }
+
+        .description {
+            font-size: 2.1rem;
+            line-height: 3.3rem;
+            min-height: 12rem;
+            color: #ffffff;
+
+            @include respond(phone) {
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+                min-height: 11rem;
+            }
+        }
+
+        .properties {
+            margin-top: 3rem;
+            width: 80%;
+
+            @include respond(phone) {
+                margin-top: 0;
+                width: 100%;
+            }
+
+            .property__item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0.5rem;
+
+                .title {
+                    color: #ffffff;
+                    font-size: 2.1rem;
+                    line-height: 3.3rem;
+                    text-transform: uppercase;
+
+                    flex: 1;
+                    margin-right: 2rem;
+
+                    border-bottom: 0.4rem solid #4d6f3d;
+
+                    @include respond(phone) {
+                        font-size: 1.9rem;
+                    }
+
+                    .title__specification {
+                        border-bottom: 0.4rem solid #c3fb12;
+                        margin-bottom: -0.4rem;
+                    }
+                }
+
+                .number {
+                    color: #ff0254;
+                    font-size: 2.1rem;
+                    line-height: 4.9rem;
+                    font-weight: 700;
+                    width: 3rem;
+                    text-align: right;
+
+                    @include respond(phone) {
+                        font-size: 1.9rem;
+                        line-height: 4.4rem;
+                    }
+                }
+            }
+        }
+
+        .information-car {
+            .car-level {
+                font-size: 3rem;
+                font-weight: 700;
+                color: #000000;
+                height: 3.1rem;
+                line-height: 3.4rem;
+                width: 21rem;
+                text-align: center;
+                color: #ffffff;
+                text-transform: uppercase;
+                clip-path: polygon(2rem 0, 100% 0, 19rem 100%, 0 100%);
+
+                /* border-radius */
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+
+                @include respond(phone) {
+                    height: 2.5rem;
+                    line-height: 2.8rem;
+                    font-size: 2.4rem;
+                    text-align: right;
+                    padding-right: 3rem;
+                }
+            }
+
+            .car-name {
+                margin-top: 1rem;
+                font-size: 4.5rem;
+                font-weight: 700;
+                color: #000000;
+                height: 5.3rem;
+                line-height: 5.8rem;
+                width: 40rem;
+                text-align: right;
+                background-color: #ffffff;
+                text-transform: uppercase;
+                clip-path: polygon(3rem 0, 100% 0, 37rem 100%, 0 100%);
+                padding-right: 3rem;
+
+                @include respond(phone) {
+                    height: 4.2rem;
+                    font-size: 3.9rem;
+                    line-height: 4.4rem;
+                    width: 32rem;
+                    clip-path: polygon(3rem 0, 100% 0, 29rem 100%, 0 100%);
+                }
+            }
+
+            .car-editions {
+                color: #ffffff;
+                font-size: 2rem;
+                line-height: 3.4rem;
+                font-weight: 600;
+                margin-right: 4rem;
+                margin-top: 1rem;
+
+                text-align: right;
+
+                @include respond(phone) {
+                    font-size: 1.6rem;
+                }
+            }
+
+            .car-image {
+                width: auto;
+                margin-top: 1rem;
+
+                @include respond(phone) {
+                    height: unset;
+                }
+
+                @include respond(tab-port) {
+                    height: unset;
+                }
+
+                @include respond(tab-land) {
+                    height: unset;
+                }
+
+                .react-player__preview {
+                    border-radius: 2rem !important;
+                    align-items: end !important;
+                    justify-content: flex-end !important;
+                    // -webkit-box-shadow: 0 0px 5px 3px #df1895;
+                    // -moz-box-shadow: 0 0px 5px 3px #df1895;
+                    // box-shadow: 0 0px 7px 2px #df1895;
+
+                    .react-player__shadow {
+                        height: 45px !important;
+                        width: 45px !important;
+                        margin-right: 5px !important;
+                        margin-bottom: 5px !important;
+                        cursor: pointer;
+                        background: radial-gradient(rgba(0, 0, 0, 0.3), #eb2f96 60%) !important;
+
+                        .react-player__play-icon {
+                            border-width: 10px 0px 10px 17px !important;
+                        }
+                    }
+                }
+
+                .introduction-car {
+                    padding: 1rem 1rem 0;
+                    height: 31rem !important;
+
+                    @include respond(phone) {
+                        padding: 2rem 0 1rem;
+                    }
+
+                    iframe {
+                        border-radius: 2rem !important;
+                    }
+                }
+
+                img {
+                    padding: 0 3rem;
+                    margin-top: -6rem;
+
+                    @include respond(phone) {
+                        width: 100%;
+                        height: 100%;
+                        max-width: 100%;
+                        min-width: 100%;
+                        margin-top: -3rem;
+                    }
+
+                    @include respond(tab-port) {
+                        width: 100%;
+                        height: 100%;
+                        max-width: 100%;
+                        min-width: 100%;
+                        margin-top: -3rem;
+                    }
+
+                    @include respond(tab-land) {
+                        width: 100%;
+                        height: 100%;
+                        max-width: 100%;
+                        min-width: 100%;
+                        margin-top: -3rem;
+                    }
+                }
+            }
+
+            .information-car__item {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .properties_1 {
+        .acceleration .title {
+            margin-right: 5rem;
+        }
+
+        .handling .title {
+            margin-right: 4rem !important;
+        }
+    }
+}
+
+@media screen and (max-height: 768px) {
+    .nft-collection {
+        .nft-collection__title {
+            margin-bottom: 3rem;
+        }
+    }
+}

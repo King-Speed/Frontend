@@ -1,0 +1,27 @@
+.error {
+    padding-top: 3rem;
+
+    .title {
+        color: #ffffff;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .notification {
+        color: #ffffff;
+        font-size: 1.8rem;
+    }
+
+    .btnClose {
+        margin-top: 5rem;
+        width: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 1.6rem;
+    }
+}
+
+.iconClose {
+    color: #ffffff;
+}

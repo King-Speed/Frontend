@@ -1,0 +1,221 @@
+@import '../../scss/mixins';
+
+.backer {
+    max-width: 150rem;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #ffffff;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond(phone) {
+        padding: 1rem 3rem 8rem;
+        margin-top: 6rem;
+        min-height: unset;
+    }
+
+    @include respond(tab-port) {
+        padding: 8rem 10rem;
+        min-height: 55rem;
+    }
+
+    @include respond(tab-land) {
+        padding: 8rem 10rem;
+        min-height: 55rem;
+    }
+
+    @include respond(desktop) {
+        padding: 0rem 5rem;
+    }
+
+    .backer__heading {
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 4rem;
+    }
+
+    .sectionPartner {
+        margin-top: 8rem;
+
+        @include respond(tab-port) {
+            margin-top: 6rem;
+        }
+
+        @include respond(tab-land) {
+            margin-top: 6rem;
+        }
+
+        @include respond(phone) {
+            margin-top: 4rem;
+        }
+    }
+
+    img {
+        cursor: pointer;
+
+        @include respond(phone) {
+            margin-right: 0rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .dextForce {
+        width: 7.5rem;
+        height: 4rem;
+    }
+
+    .kyberAlumniFund {
+        width: 7.7rem;
+        height: 4.4rem;
+    }
+
+    .basicCapital {
+        width: 7.5rem;
+        height: 3rem;
+    }
+
+    .au21Capital {
+        width: 9rem;
+        height: 3.24rem;
+    }
+
+    .lotusCapital {
+        width: 7.2rem;
+        height: 4.4rem;
+    }
+
+    .mavenCapital {
+        width: 9.24rem;
+        height: 2.4rem;
+    }
+
+    .dct {
+        width: 7.7rem;
+        height: 3.4rem;
+    }
+
+    .goldenShovel {
+        width: 7.7rem;
+        height: 4.8rem;
+    }
+
+    .zbsCapital {
+        width: 5.64rem;
+        height: 6.24rem;
+    }
+
+    .goodGames {
+        width: 9.12rem;
+        height: 5.64rem;
+    }
+
+    .dutchCryptox {
+        width: 7.4rem;
+        height: 3.6rem;
+    }
+
+    .kiwiGroup {
+        width: 4.5rem;
+        height: 4.8rem;
+    }
+
+    .cryptoDorm {
+        width: 10rem;
+        height: 4.7rem;
+    }
+    .infinity {
+        width: 8.4rem;
+        height: 4rem;
+    }
+
+    .lavender {
+        width: 4.3rem;
+        height: 4.8rem;
+    }
+
+    .kyrosVentures {
+        width: 9.24rem;
+        height: 3.6rem;
+    }
+
+    .dreamBoat {
+        width: 4.55rem;
+        height: 6.24rem;
+    }
+
+    .mhVentures {
+        width: 11.55rem;
+        height: 3.75rem;
+    }
+
+    .roseon {
+        width: 11.55rem;
+        height: 3.75rem;
+    }
+
+    .coinTelegraph {
+        width: 11.55rem;
+        height: 5.55rem;
+    }
+
+    .cryptoPotato {
+        width: 11.55rem;
+        height: 4.5rem;
+    }
+
+    .bscNews {
+        width: 11.55rem;
+        height: 6rem;
+    }
+
+    .coinTurk {
+        width: 10rem;
+        height: 1.8rem;
+    }
+
+    .sixEightCoin {
+        width: 7.3rem;
+        height: 4.4rem;
+    }
+
+    .oxBull {
+        width: 11.25rem;
+        height: 4rem;
+    }
+
+    .gameStation {
+        width: 4.3rem;
+        height: 4.8rem;
+    }
+
+    .krystalGo {
+        width: 11.55rem;
+        height: 3rem;
+    }
+
+    .investing {
+        width: 10.9rem;
+        height: 2.25rem;
+    }
+
+    .peechCapital {
+        width: 7.7rem;
+    }
+
+    .marketWatch {
+        width: 12rem;
+    }
+
+    .yahooFinance {
+        width: 10rem;
+    }
+
+    .kvVentures {
+        width: 11rem;
+    }
+}

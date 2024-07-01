@@ -1,0 +1,166 @@
+.u-center-text {
+    text-align: center !important;
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 1.5rem !important;
+}
+.u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.u-margin-bottom-big {
+    margin-bottom: 8rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 5rem !important;
+    }
+}
+
+.u-margin-top-big {
+    margin-top: 8rem !important;
+}
+.u-margin-top-huge {
+    margin-top: 10rem !important;
+}
+
+.height-40 {
+    height: 5.3rem;
+}
+
+.col-5-of-row {
+    @include respond(big-desktop) {
+        display: block;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    @include respond(desktop) {
+        display: block;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+.col-7-of-row {
+    @include respond(big-desktop) {
+        display: block;
+        flex: 0 0 14.2555%;
+        max-width: 14.2555%;
+    }
+
+    @include respond(desktop) {
+        display: block;
+        flex: 0 0 14.2555%;
+        max-width: 14.2555%;
+    }
+}
+
+.icon-medium:hover g,
+.icon-telegram:hover g,
+.icon-telegram:hover path,
+.icon-twitter:hover g {
+    fill: #c3fb12 !important;
+}
+
+.join-the-race:hover .play-game-btn {
+    background-color: #c3fb12 !important;
+}
+
+.join-the-race:hover .play-game-btn a,
+.join-the-race:hover .ic-double-angle-bracket {
+    color: #000000 !important;
+}
+
+.is-mobile {
+    @include respond(big-desktop) {
+        display: none;
+    }
+
+    @include respond(desktop) {
+        display: none;
+    }
+
+    @include respond(tab-land) {
+        display: none;
+    }
+
+    @include respond(tab-port) {
+        display: none;
+    }
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #e5e5e5 !important;
+    opacity: 0.32;
+    width: 4px !important;
+    height: 35px !important;
+    border-radius: unset !important;
+}
+
+#fp-nav ul li,
+.fp-slidesNav ul li {
+    height: 35px !important;
+}
+
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+    height: 35px !important;
+    width: 4px !important;
+    border-radius: unset !important;
+    margin: -2px 0 0 -2px !important;
+    background: #c3fb12 !important;
+    opacity: 1;
+}
+
+#fp-nav ul li,
+.fp-slidesNav ul li {
+    width: 4px !important;
+}
+
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+    height: 35px !important;
+    opacity: 1;
+    background: #c3fb12 !important;
+    margin: -2px 0 0 -2px !important;
+}
+
+.btn-back-top {
+    color: #fff;
+    text-align: center;
+    background-color: #00000073;
+    border-radius: 20px;
+
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    z-index: 10;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    border: none;
+
+    .ic-back-top {
+        font-size: 2rem;
+        line-height: 4.2rem;
+    }
+}
+
+.btn-back-top.ant-btn:focus {
+    color: #fff;
+    background-color: #00000073;
+    border-color: unset;
+}
+
+.btn-back-top.ant-btn:hover {
+    color: #fff;
+    background: #b3d447 !important;
+}

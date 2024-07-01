@@ -1,0 +1,149 @@
+.features {
+    min-height: 100vh;
+    max-width: 110rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond(phone) {
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        background-image: url(../../assets/images/mobile/bgr_feautures.webp);
+        height: 90vh;
+    }
+
+    @include respond(tab-port) {
+        padding-top: 5rem;
+        min-height: 550px;
+    }
+
+    @include respond(tab-land) {
+        padding-top: 5rem;
+        min-height: 550px;
+    }
+
+    .heading-secondary {
+        text-align: center;
+        font-weight: 700;
+
+        @include respond(phone) {
+            font-size: 4.5rem;
+            padding-top: 4.5rem;
+        }
+    }
+
+    .box-content {
+        padding: 3rem;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 0.5rem;
+
+        @include respond(phone) {
+            display: none;
+        }
+
+        @include respond(tab-land) {
+            margin: 0 auto;
+            max-width: 60rem;
+        }
+
+        @include respond(tab-port) {
+            margin: 0 auto;
+            max-width: 60rem;
+        }
+
+        @include respond(desktop) {
+            padding: 3rem;
+        }
+
+        .box-content__item {
+            text-align: center;
+
+            img {
+                height: 20rem;
+                width: 100%;
+                border-radius: 1.5rem;
+                border: 1px solid #c3fb12;
+            }
+
+            .box-content__title {
+                color: #ffffff;
+                font-weight: 600;
+                font-size: 2rem;
+                margin-top: 2rem;
+                min-height: 6rem;
+            }
+
+            .box-content__description {
+                font-size: 1.7rem;
+                margin-top: 2rem;
+                color: #dddddd;
+            }
+        }
+    }
+
+    .box-content-mobile {
+        padding: 1rem 1rem 3rem 1rem;
+
+        .ant-carousel .slick-dots-bottom {
+            bottom: -8rem;
+        }
+
+        .slick-list {
+            padding: 0 4rem 0 0rem !important;
+        }
+
+        .ant-carousel .slick-dots li {
+            opacity: 1;
+            width: 1.6rem;
+            height: 1.6rem;
+            border-radius: 50%;
+            background: #000000;
+            border: 0.3rem solid #c3fb12;
+        }
+
+        .ant-carousel .slick-dots li.slick-active button {
+            background: #c3fb12;
+            height: 1.6rem;
+        }
+
+        .ant-carousel .slick-dots li button {
+            height: 1.6rem;
+            background: #000000;
+            border-radius: 50%;
+        }
+
+        .box-content__item {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            width: 26rem !important;
+            height: 46rem;
+
+            padding: 4rem 3rem;
+            border-radius: 1rem;
+
+            img {
+                height: 20rem;
+                width: 100%;
+                border-radius: 1rem;
+                border: 1px solid #c3fb12;
+            }
+
+            .box-content__title {
+                color: #ffffff;
+                font-weight: 600;
+                font-size: 2rem;
+                margin-top: 2rem;
+                min-height: 4rem;
+            }
+
+            .box-content__description {
+                font-size: 1.8rem;
+                margin-top: 2rem;
+                color: #dddddd;
+            }
+        }
+    }
+}

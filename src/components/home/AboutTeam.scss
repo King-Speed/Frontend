@@ -1,0 +1,61 @@
+.about-team {
+    margin: 0 auto;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond(phone) {
+        min-height: unset;
+    }
+
+    @include respond(tab-port) {
+        min-height: 55rem;
+    }
+
+    @include respond(tab-land) {
+        min-height: 55rem;
+    }
+
+    .section-team {
+        height: 100%;
+
+        padding: 5rem 20rem !important;
+
+        @include respond(phone) {
+            padding: 0 1rem !important;
+        }
+
+        @include respond(desktop) {
+            padding: 5rem 10rem !important;
+        }
+
+        @include respond(tab-port) {
+            padding: 5rem !important;
+        }
+
+        @include respond(tab-land) {
+            padding: 5rem 3rem !important;
+        }
+
+        .team__item {
+            padding: 2rem;
+        }
+
+        .ant-carousel {
+            .slick-dots {
+                bottom: -7rem;
+
+                @include respond(phone) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .heading-secondary {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}

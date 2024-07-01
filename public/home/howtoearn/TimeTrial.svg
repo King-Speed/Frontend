@@ -1,0 +1,47 @@
+<svg width="101" height="105" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
+            <stop stop-color="#90A6C6" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+            <stop stop-color="#90A6C6" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+            <stop stop-color="#90A6C6" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+            <stop stop-color="#90A6C6" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="e">
+            <stop stop-color="#90A6C6" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f">
+            <stop stop-color="#90A6C6" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="g">
+            <stop stop-color="#90A6C6" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g transform="translate(-12 -11)" fill="none" fill-rule="evenodd">
+        <circle cx="62.5" cy="64.288" r="62.48"/>
+        <path d="M.02.404h126.364v126.364H.02z"/>
+        <path d="M51.202 105.535c-23.263 0-42.121-18.858-42.121-42.12 0-23.264 18.858-42.122 42.121-42.122S93.323 40.15 93.323 63.414a42.121 42.121 0 0 1-42.121 42.121zm0-76.584c-19.033 0-34.463 15.43-34.463 34.463s15.43 34.463 34.463 34.463 34.463-15.43 34.463-34.463-15.43-34.463-34.463-34.463z" fill="url(#a)" fill-rule="nonzero" transform="translate(12 10)"/>
+        <path fill="#C3FB12" fill-rule="nonzero" d="M73.75 90.219 58.156 74.625V46.78h8.688V71.02l13.031 13.075z"/>
+        <path fill="#FFF" d="M57.168 31.101h10.896V22.95H57.168z"/>
+        <path fill="url(#b)" d="m39.576 1.66-1.608 1.58h23.984l-1.61-1.58z" transform="translate(12.657 10.232)"/>
+        <path fill="url(#c)" d="M37.967 11.136h23.984V4.878H37.967z" transform="translate(12.657 10.232)"/>
+        <path fill="url(#d)" d="m88.063 32.58-7.841-6.078-2.035 2.532 7.842 6.076z" transform="translate(12.657 10.232)"/>
+        <path fill="url(#e)" d="m97.102 25.942-12.409-9.617-5.998 7.465 12.409 9.616z" transform="translate(12.657 10.232)"/>
+        <path fill="url(#f)" d="M99.64 24.466 85.563 13.56l-.946 1.179 14.075 10.906z" transform="translate(12.657 10.232)"/>
+        <path fill="url(#d)" d="m11.855 32.58 7.842-6.078 2.034 2.532-7.842 6.076z" transform="translate(12.657 10.232)"/>
+        <path fill="url(#e)" d="m2.816 25.942 12.409-9.617 5.998 7.465-12.408 9.616z" transform="translate(12.657 10.232)"/>
+        <path fill="url(#g)" d="m.278 24.467.948 1.178 14.075-10.909-.948-1.178z" transform="translate(12.657 10.232)"/>
+    </g>
+</svg>

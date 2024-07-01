@@ -1,0 +1,23 @@
+.accountInfo {
+    padding: 1rem;
+    background-color: rgb(43, 34, 34);
+
+    .detail {
+        font-size: 1.6rem;
+        font-weight: 600;
+
+        .detailItem {
+            padding: 0.5rem 4rem;
+            cursor: pointer;
+            text-align: center;
+
+            a {
+                color: #ffffff;
+            }
+        }
+
+        .detailItem:hover {
+            background: rgb(97, 65, 65);
+        }
+    }
+}
