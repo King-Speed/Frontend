@@ -1,7 +1,7 @@
 module.exports = {
     output: 'export',
     reactStrictMode: true,
-    basePath: "",
+    basePath: "/Frontend",
     assetPrefix: "",
     images: {
         loader: "akamai",
