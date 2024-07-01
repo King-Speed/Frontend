@@ -1,11 +1,11 @@
 module.exports = {
     output: 'export',
     reactStrictMode: true,
-    basePath: "/Frontend",
-    assetPrefix: "/Frontend",
+    basePath: "",
+    assetPrefix: "",
     images: {
         loader: "akamai",
-        path: "/Frontend",
+        path: "",
     },
     eslint: {
         // Warning: This allows production builds to successfully complete even if
