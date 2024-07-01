@@ -1,8 +1,8 @@
 module.exports = {
     output: 'export',
     reactStrictMode: true,
-    basePath: "/nextjs-pages",
-    assetPrefix: "/nextjs-pages",
+    basePath: "",
+    assetPrefix: "",
     images: {
         loader: "akamai",
         path: "",
