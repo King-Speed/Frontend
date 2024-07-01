@@ -5,10 +5,7 @@ module.exports = {
     assetPrefix: "/Frontend",
     images: {
         loader: "akamai",
-        path: "",
-    },
-    experimental: {
-        optimizeFonts: true,
+        path: "/Frontend",
     },
     eslint: {
         // Warning: This allows production builds to successfully complete even if
