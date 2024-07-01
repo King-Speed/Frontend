@@ -2,7 +2,7 @@ module.exports = {
     output: 'export',
     reactStrictMode: true,
     basePath: "/Frontend",
-    assetPrefix: "",
+    assetPrefix: "/Frontend",
     images: {
         loader: "akamai",
         path: "",
